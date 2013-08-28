@@ -1,3 +1,24 @@
-* { margin:100; padding:100 }
+* { margin:0; padding:0 }
 
-background-image:(phototestsite/images/DSC_0178.JPG);
+html {
+  background-color: #bbb;
+}
+
+figure img {
+  width: 50%;  
+}
+
+figure {
+  vertical-align: top;
+  width: 45%;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.main {
+  transition: 1s;
+}
+
+.main:hover {
+  border: 40px solid cornflowerblue;
+}
