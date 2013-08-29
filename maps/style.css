@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: monaco;
+  font-family: verdana;
 }
 
 html {
@@ -39,6 +39,19 @@ html {
 .titleright {
   display: inline;
   font-size: 12px;
+}
+
+.profilepic {
+  display: inline;
+  width: 25%;
+}
+
+.regtext {
+  vertical-align: top;
+  overflow: auto;
+  display: inline-block;
+  padding: 25px;
+  font-size: 16px;
 }
 
 .standardtext {
