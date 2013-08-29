@@ -1,6 +1,6 @@
-Experiments
+Lab
 ===========
 
-For science!
+The place where the science happens.
 
-http://jwdallas.github.io/experiments/
+http://jkjd.github.io/lab
