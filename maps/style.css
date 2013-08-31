@@ -1,10 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: verdana;
 }
 
 html {
+  font-family: verdana;
   background-color: white;
 }
 
@@ -19,30 +19,31 @@ html {
 }
 
 #nav-list{
-  display: inline;
+  display: inline-block;
   padding: 5px;
   margin-bottom: 25px;
 }#nav-list p{
-  display: inline;
+  display: inline-block;
 }#nav-list ul, #nav-list li{
   font-size: 16px;
-  display: inline;
+  display: inline-block;
 }
 
 .title {
-  display: inline;
+  display: inline-block;
   text-align: left;
   font-size: 30px;
   text-decoration: underline;
 }
 
 .titleright {
-  display: inline;
+  display: inline-block;
   font-size: 12px;
 }
 
 .profilepic {
-  display: inline;
+  padding: 25px;
+  float: right;
   width: 25%;
 }
 
@@ -69,7 +70,7 @@ html {
   display: inline-block;
 }
 
-#footer {
+#postscript {
   position: relative;
   padding: 50px;
   text-align: center;
