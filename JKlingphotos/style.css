@@ -1,3 +1,5 @@
+/*#A9C0C7*/
+
 * {
   margin: 0;
   padding: 0;
@@ -8,58 +10,41 @@ html {
   background-color: white;
 }
 
-.titleText {
+a {
+  text-decoration: none;
+  color: #4F4F4F;
+}
+
+.title-text {
   color: #4F4F4F;
   display: inline-block;
   font-size: 35px;
 }
 
-.titleDisplay {
+.title-display {
   text-align: center;
   padding: 5px;
-  background-color: #A9C0C7;
+  background: linear-gradient(to bottom, #A9C0C7, #E1EDF0);
 }
 
-#middleGrad {
-  padding: 10px;
-  background-image: linear-gradient(bottom, #E1EDF0 36%, #A9C0C7 100%);
-  background-image: -o-linear-gradient(bottom, #E1EDF0 36%, #A9C0C7 100%);
-  background-image: -moz-linear-gradient(bottom, #E1EDF0 36%, #A9C0C7 100%);
-  background-image: -webkit-linear-gradient(bottom, #E1EDF0 36%, #A9C0C7 100%);
-  background-image: -ms-linear-gradient(bottom, #E1EDF0 36%, #A9C0C7 100%);
-
-  background-image: -webkit-gradient(
-  	linear,
-  	right bottom,
-  	right top,
-  	color-stop(0.36, #E1EDF0),
-  	color-stop(1, #A9C0C7)
-  );
-}
-
-#navigator {
+header nav {
   background-color: #E1EDF0;
   text-align: center;
   border-bottom: 1px solid #656C6E;
-}
-
-.navItem{
+}header nav li {
   border: 1px solid #4F4F4F;
   background-color: #A9C0C7;
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 5px;
-}.navItem:hover{
-  background-color: #E1EAEB;
-}.navItem a{
   font-size: 20px;
-  text-decoration: none;
-  color: #4F4F4F;
-}.navItem:first-child{
+}header nav li:hover {
+  background-color: #E1EAEB;
+}header nav li:first-child {
   border-top-left-radius: 10px 10px;
   border-bottom-left-radius: 10px 10px;
-}.navItem:last-child{
+}header nav li:last-child {
   border-top-right-radius: 10px 10px;
   border-bottom-right-radius: 10px 10px;
 }
@@ -77,33 +62,16 @@ html {
   width: 75%;
 }
 
-.newPost {
+.new-post {
   font-size: 15px;
-  margin: 10px;
+  margin: 10px 0px 10px;
   border-bottom:1px dotted black;
 }
 
-#topFooterGrad {
-  padding: 30px;
-  background-image: linear-gradient(top, #FFFFFF 36%, #A9C0C7 100%);
-  background-image: -o-linear-gradient(top, #FFFFFF 36%, #A9C0C7 100%);
-  background-image: -moz-linear-gradient(top, #FFFFFF 36%, #A9C0C7 100%);
-  background-image: -webkit-linear-gradient(top, #FFFFFF 36%, #A9C0C7 100%);
-  background-image: -ms-linear-gradient(top, #FFFFFF 36%, #A9C0C7 100%);
-
-  background-image: -webkit-gradient(
-  	linear,
-  	right top,
-  	right bottom,
-  	color-stop(0.36, #FFFFFF),
-  	color-stop(1, #A9C0C7)
-  );
-}
-
-#postScript {
-  background-color: #A9C0C7;
+#post-script {
+  background: linear-gradient(to bottom, white, #A9C0C7);
   position: relative;
-  padding: 10px;
+  padding: 10px 0px 10px;
   text-align: center;
   font-size: 7px;
 }
