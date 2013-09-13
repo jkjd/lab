@@ -15,23 +15,22 @@ a {
   color: #4F4F4F;
 }
 
-.title-text {
+header {
+  text-align: center;
+  padding: 5px;
+  background: linear-gradient(to bottom, #A9C0C7, #E1EDF0);
+  border-bottom: 1px solid #656C6E;
+}
+
+header h1 {
   color: #4F4F4F;
   display: inline-block;
   font-size: 35px;
 }
 
-.title-display {
-  text-align: center;
-  padding: 5px;
-  background: linear-gradient(to bottom, #A9C0C7, #E1EDF0);
-}
-
 header nav {
-  background-color: #E1EDF0;
   text-align: center;
-  border-bottom: 1px solid #656C6E;
-}header nav li {
+} header nav a {
   border: 1px solid #4F4F4F;
   background-color: #A9C0C7;
   display: inline-block;
@@ -39,19 +38,19 @@ header nav {
   padding-right: 10px;
   margin-bottom: 5px;
   font-size: 20px;
-}header nav li:hover {
+} header nav a:hover {
   background-color: #E1EAEB;
-}header nav li:first-child {
+} header nav a:first-child {
   border-top-left-radius: 10px 10px;
   border-bottom-left-radius: 10px 10px;
-}header nav li:last-child {
+} header nav a:last-child {
   border-top-right-radius: 10px 10px;
   border-bottom-right-radius: 10px 10px;
 }
 
 #sidebar {
   display: inline-block;
-  float: right;
+  vertical-align: top;
   margin: 10px;
   width: 20%;
 }
@@ -68,7 +67,7 @@ header nav {
   border-bottom:1px dotted black;
 }
 
-#post-script {
+footer {
   background: linear-gradient(to bottom, white, #A9C0C7);
   position: relative;
   padding: 10px 0px 10px;
